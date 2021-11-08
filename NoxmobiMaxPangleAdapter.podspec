@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMaxPangleAdapter"
-  spec.version      = "9.2.0.0" # Mark
+  spec.version      = "4.0.0.2.0" # Mark
   spec.summary      = "A temporary for max adapter of InMobi."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMaxPangleAdapter"
   spec.license      = "MIT"
@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'AppLovinMediationByteDanceAdapter.framework'
   spec.requires_arc = true
 
-  spec.dependency "Ads-Global/BUAdSDK", "4.0.0.1"
-  spec.dependency "Ads-Global/Domestic", "4.0.0.1"
+  spec.dependency "Ads-Global/BUAdSDK", "4.0.0.2"
+  spec.dependency "Ads-Global/Domestic", "4.0.0.2"
 end
