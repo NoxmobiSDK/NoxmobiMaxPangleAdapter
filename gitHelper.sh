@@ -2,12 +2,12 @@
 
 # ===============修改podspec的版本号===========================
 
-PodName="AppLovinMediationInMobiAdapter"
+PodName="NoxmobiMaxPangleAdapter"
 
 echo "\n🔥当前版本号："
 # 读取plist中的版本号
-srcVer=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" ./$PodName.framework/Info.plist)
-echo "\n🔥版本号 = " "$srcVer"
+# srcVer=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" ./$PodName.framework/Info.plist)
+echo "\n🔥版本号 = 5.2.0.0.0"
 
 echo "\n🔥是否继续执行?[y/n]"
 read flag
